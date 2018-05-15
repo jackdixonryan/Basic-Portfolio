@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html>
+    <!--Jury-rigging warnings:
+        1. Margins and size of the nav hard coded.
+        2. Height of the main content completely eyeballed.
+        3. Padding throughout the main div entirely imaginary.-->
+
+    <head>
+        <title>Main</title>
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!--Defining a navbar and a 'top' of the page: needed to define
+            the broader container in an effort to make the actual content
+            of the navigation center on the page, but float in opposite 
+            directions (the h1 and the ul, that is.
+        
+            Used 960px with margin-auto to set the nav container-worked great.-->
+        <div id="top">
+            <nav>
+                <h1>Jack Ryan</h1>
+                <ul>
+                    <li>About</li>
+                    <li id="center">Portfolio</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div id="top">
+
+        <!--Defining the main content area of the page-->
+        <div id="main">
+            <h1>About Me</h1>
+            <img src = "assets/images/IMG_0231.JPG" alt="Jack in Iceland">
+            <p>I am Jack Ryan--Traveller, writer, life-long student, 
+               and budding coder. I write novels, shorts stories, 
+               histories, articles, and hopefully soon, html and css.
+               I am a creativity fanatic, constantly dedicating a large 
+               portion of my time every day to writing, building, or 
+               coding cool stuff. <br><br><br>The photo at left depicts one of the 
+               infinite waterfall outflows in Iceland, one of the places 
+               Where I have found the most ease.</p>
+        </div>
+
+        <!--Defining the footer w/content centered. Far less complicated
+        than the nav, I hope.-->
+        <footer>
+            <p>&copy; 2018, Jack Ryan</p>
+        </footer>
+
+    </body>
+</html>
