@@ -57,7 +57,7 @@ li {
     margin-right: auto;
     background-color: #ffffff;
     clear: both;
-    height: 480px;
+    height: 620px;
     margin-top: 50px;
     border: 1px #cccccc solid;
 }
@@ -101,4 +101,46 @@ footer {
 
 footer p {
     padding: 15px;
+}
+
+/**contact sheet css**/
+
+h3 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+input[type=text] {
+    height: 30px;
+    width: 93%;
+    margin-left: 30px;
+}
+
+textarea {
+    width: 93%;
+    margin-left: 30px;
+    border: #cccccc 1px solid;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: #fff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 30px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    color: #cccccc;
 }
