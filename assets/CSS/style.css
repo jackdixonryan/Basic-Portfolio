@@ -117,12 +117,18 @@ input[type=text] {
     height: 30px;
     width: 93%;
     margin-left: 30px;
+    font-size: 20px;
+}
+
+input[type=text]:focus, textarea:focus {
+    outline: 1px solid #4aaaa5;
 }
 
 textarea {
     width: 93%;
     margin-left: 30px;
     border: #cccccc 1px solid;
+    font-size: 20px;
 }
 
 input[type=submit] {
@@ -139,7 +145,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background: linear-gradient(#4aaaaf, teal);
+    background: linear-gradient(#4aaaa5, teal);
 }
 
 a {
